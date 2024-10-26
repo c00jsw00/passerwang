@@ -14,6 +14,7 @@ pdb_info = {}
 
 # ASD data
 asd_dir = "../data/source_data/ASD_Release_201909_AS.txt"
+#asd_dir = "../data/source_data/allosteric_data.txt"
 asd = open(asd_dir, "r").readlines()
 
 for line in tqdm(asd[1:]):

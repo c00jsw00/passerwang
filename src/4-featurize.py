@@ -97,7 +97,7 @@ print(
 )
 
 # clear history
-os.system("rm -r ../data/classification/*")
+#os.system("rm -r ../data/classification/*")
 
 # dump data
 pickle.dump(labels, open("../data/classification/labels.pkl", "wb"))
